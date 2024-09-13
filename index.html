@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>To DO List Vanilla JS</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8 text-center">
+                    <h1>Vanilla JS To Do list</h1>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8 mainToDoList">
+                    <div class="row inputItem d-flex justify-content-center">
+                        <div class="col-6 taskTextbox">
+                            <input type="text" id="inputTask">
+                        </div>
+                        <div class="col-4 submitButton">
+                            <input type="button" value="Add Task">
+                        </div>
+                    </div>
+                    <div class="row todoItem d-flex justify-content-center mt-3">
+                        <div class="col-1">
+                            <input type="checkbox" name="taskDone" id="taskCheckmark">
+                        </div>
+                        <div class="col-5">
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div class="col-4">
+                            <button>X</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </main>
+</body>
+<script type="text/javascript" src="./js/app.js"></script>
+</html>
